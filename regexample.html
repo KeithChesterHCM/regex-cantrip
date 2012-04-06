@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>RegEx Demo</title>
+  </head>
+  <body>
+    <h2>RegEx Demo</h2>
+    <script>
+      function validateForm(form) {
+        var email = form.email.value;
+        var emailAgain = form.emailAgain.value;
+        if(email != emailAgain) {
+          alert("emails do not match!");
+          return false;
+        } return true;
+      }
+    </script>
+    <form name='demoform' method='get' action='success.html'>
+      <table>
+        <tr>
+          <td>
+            <label>Enter your email: </label>
+          </td>
+          <td>
+            <input name='email' type='text' placeholder='email' />
+          </td>
+        <tr>
+        <tr>
+          <td>
+            <label>Enter your email again: </label>
+          </td>
+          <td>
+            <input name='emailAgain' type='text' placeholder='email (again)' />
+          </td>
+        </tr>
+        <tr>
+          <td colspan='2' align='right'>
+            <input type='submit' value='Submit' onclick='return validateForm(this.form);' />
+          </td>
+        <tr>
+      </table>
+    </form>
+  </body>
+</html>
