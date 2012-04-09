@@ -1,4 +1,4 @@
-# regexample.py
+# regexample2.py
 import sys,re
 
 phone_pattern = re.compile(r'^(1-)?[0-9]{3}-[0-9]{3}-[0-9]{4}$')

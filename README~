@@ -30,10 +30,3 @@ $ - indicates the end of a string.
 #   Files:  #
 #           #
 #############
-
-
-regexample.py - demos regular expressions for email, phone number, zip code, dates, and SSNs
-
-regexample2.py - example of a simple file parser
-
-regexample.html - JS example of validating emails

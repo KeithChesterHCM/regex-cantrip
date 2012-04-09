@@ -46,7 +46,7 @@
         <tr>
       </table>
     </form>
-    <br />
+    <br /><br />
     <div id='success_div' style='color:red; display:none;'>
       <h2>Email validated!</h2><br />
       <a href='#' onclick='return clearMe();'>Clear this message.</a>
