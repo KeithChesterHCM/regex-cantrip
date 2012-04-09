@@ -11,12 +11,7 @@
         if(email != emailAgain) {
           alert("emails do not match!");
           return false;
-        }
-        var emailRegEx = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-        if(!emailRegEx.test(email)) {
-          alert("Please enter a valid email address.");
-          return false;
-        }
+        } 
         document.getElementById('success_div').style.display = 'block';
         return false;
       }
