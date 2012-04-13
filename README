@@ -22,7 +22,7 @@ $ - indicates the end of a string.
 [] - character class, can include ranges and most metacharacters
 \ - escape char
 | - logical OR
-() - groups chars so they are treated as one char
+() - groups chars so they are treated as one group
 
 
 #############
